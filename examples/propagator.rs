@@ -36,9 +36,6 @@ fn solve(ctl: &mut Control) {
             Err(e) => panic!("Error: {}", e),
         }
     }
-
-    // close the solve handle
-    handle.close().expect("Failed to close solve handle.");
 }
 
 // state information for individual solving threads

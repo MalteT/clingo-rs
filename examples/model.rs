@@ -55,9 +55,6 @@ fn solve(ctl: &mut Control) {
             }
         }
     }
-
-    // close the solve handle
-    handle.close().expect("Failed to close solve handle.");
 }
 
 fn main() {

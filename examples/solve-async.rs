@@ -68,7 +68,4 @@ fn main() {
     handle
         .get()
         .expect("Failed to get result from solve handle.");
-
-    // close the handle
-    handle.close().expect("Failed to close solve handle.");
 }

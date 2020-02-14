@@ -86,7 +86,6 @@ fn solve(ctl: &mut Control) {
     handle
         .get()
         .expect("Failed to get result from solve handle.");
-    handle.close().expect("Failed to close solve handle.");
 }
 
 fn main() {
